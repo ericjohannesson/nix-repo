@@ -1,10 +1,10 @@
-{ } : {
+{ pkgs ? import <nixpkgs> { } } : {
 
-  nmm-ocaml = import (
+  nmm-ocaml = pkgs.callPackage (
     builtins.fetchTarball "https://github.com/ericjohannesson/nmm-ocaml/archive/refs/tags/1.tar.gz"
   ) { };
 
-  natural-deduction = import (
+  natural-deduction = pkgs.callPackage (
     builtins.fetchTarball "https://github.com/ericjohannesson/natural-deduction/archive/refs/tags/1.tar.gz"
   ) { };
 

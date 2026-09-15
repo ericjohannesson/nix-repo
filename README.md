@@ -7,7 +7,7 @@ To use the packages in this repo, you may include the following in your nix-file
 # ...
 let
   ericspkgs = import (
-    builtins.fetchTarball "https://github.com/ericjohannesson/nix-repo/archive/refs/tags/v1.tar.gz"
+    builtins.fetchTarball "https://github.com/ericjohannesson/nix-repo/archive/refs/tags/v2.tar.gz"
   ) { };
 in
 # ... ericspkgs ...
