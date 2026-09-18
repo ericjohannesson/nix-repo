@@ -6,5 +6,6 @@ pkgs.mkShellNoCC {
   packages = with ericspkgs; [
     nmm-ocaml
     natural-deduction
+    cmdsync
   ];
 }
