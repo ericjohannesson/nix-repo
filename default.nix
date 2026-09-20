@@ -9,7 +9,7 @@
   ) { };
 
   cmdsync = pkgs.callPackage (
-    builtins.fetchTarball "https://github.com/ericjohannesson/cmdsync/archive/refs/tags/3.tar.gz"
+    builtins.fetchTarball "https://github.com/ericjohannesson/cmdsync/archive/refs/tags/4.tar.gz"
   ) { };
 
 }
