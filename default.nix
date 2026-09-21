@@ -12,7 +12,7 @@
 
   natural-deduction = pkgs.callPackage (
     builtins.fetchTarball
-      "https://github.com/ericjohannesson/natural-deduction/archive/refs/tags/0.tar.gz"
+      "https://github.com/ericjohannesson/natural-deduction/archive/refs/tags/1.tar.gz"
   ) { };
 
   cmdsync = pkgs.callPackage (
