@@ -7,7 +7,7 @@ To use the packages in this repo, you may include the following in your nix-file
 # ...
 let
   ericspkgs = import (
-    builtins.fetchurl "https://ericjohannesson.github.io/nix-repo/default.nix"
+    fetchurl "https://ericjohannesson.github.io/nix-repo/default.nix"
   ) { };
 in
 # ... ericspkgs ...
