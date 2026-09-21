@@ -1,10 +1,10 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/refs/tags/26.05.tar.gz") {} 
+{ pkgs ? import (
+    builtins.fetchTarball
+      "https://github.com/NixOS/nixpkgs/archive/refs/tags/26.05.tar.gz"
+  ) { }
 }:
 let
-  ericspkgs = import (
-    #fetchurl "https://ericjohannesson.github.io/nix-repo/default.nix"
-    ./.
-  ) { };
+  ericspkgs = pkgs.callPackage ./. { };
 in
 pkgs.mkShellNoCC {
   packages =
@@ -21,4 +21,3 @@ pkgs.mkShellNoCC {
     ]
   );
 }
-
