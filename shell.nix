@@ -4,7 +4,7 @@
   ) { }
 }:
 let
-  ericspkgs = pkgs.callPackage ./. { };
+  ericspkgs = import ./. { };
 in
 pkgs.mkShellNoCC {
   packages =
