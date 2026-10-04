@@ -7,7 +7,7 @@
 
   nmm-ocaml = pkgs.callPackage (
     builtins.fetchTarball
-      "https://github.com/ericjohannesson/nmm-ocaml/archive/refs/tags/3.tar.gz"
+      "https://github.com/ericjohannesson/nmm-ocaml/archive/refs/tags/4.tar.gz"
   ) { };
 
   natural-deduction = pkgs.callPackage (
