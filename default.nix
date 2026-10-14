@@ -9,21 +9,21 @@
   nmm-ocaml = pkgs.callPackage (
     pkgs.fetchgit {
       url = "https://github.com/ericjohannesson/nmm-ocaml";
-      hash = "sha256-VsWRoCSux0N8NDm/t6pK1N6XOALqyi4pq7j56e98MQA=";
+      hash = "sha256-/1YdzFIEfo6EyDnQsAIaCSzpW5P1GcXie6JeRsZiMEc=";
     }
   ) { };
 
   natural-deduction = pkgs.callPackage (
     pkgs.fetchgit {
       url = "https://github.com/ericjohannesson/natural-deduction";
-      hash = "sha256-dVVG7jBe+LYnZZCWdeGJy/2GaRz5JpCROQiHxhIkgbs=";
+      hash = "sha256-0eGVTQ0OiCNVdL25967K8E7Qypcka3gfgiP/ZQalWtw=";
     }
   ) { };
 
   cmdsync = pkgs.callPackage (
     pkgs.fetchgit {
       url = "https://github.com/ericjohannesson/cmdsync";
-      hash = "sha256-21qcrucZZMxBalMC7DObyFkFLyhxF2RJnnEsexJD3Ss=";
+      hash = "sha256-LjLZSrZBOl0LNNMdxsr9qePEOHn8W8Tg+QyflGINppQ=";
     }
   ) { };
 }
